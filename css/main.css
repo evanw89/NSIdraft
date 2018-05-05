@@ -1,0 +1,31 @@
+/*.st0, image {
+  transition: 0.3s ease;
+  transform: scale(0);
+}
+g:hover .st0 {
+  transform: scale(1.0)
+}
+g:hover image {
+	transform: scale(0.9);
+}*/
+path {
+	fill:#FFB0B0;
+}
+.st1 {
+	transition: 0.35s cubic-bezier(0.075, 0.82, 0.165, 1);
+	display: initial;
+	transform: scale(0);
+	opacity: 0;
+}
+.st56 {
+	transition: 0.5s ease;
+	opacity: 0;
+	transform: scale(0);
+}
+.st2 {
+	opacity: 0.7;
+}
+/*.st1 > * {
+	transform: scale(0);
+	opacity: 0;
+}*/
